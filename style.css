@@ -1,0 +1,105 @@
+* { margin: 0px; padding: 0px;}
+html,body {height: 100%;}
+@font-face {
+    font-family:Minecrafts;
+    src: url(Minecraft.ttf);
+}
+
+* { margin: 0px; padding: 0px;}
+html,body {height: 100%;}
+@font-face {
+    font-family:comics;
+    src: url(COMIC.TTF);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@keyframes bgscroll {
+    0% {
+        background-position: top left;
+    }
+    50% {
+        background-position: bottom right;
+    }
+    100% {
+        background-position: top left;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: #ff0000;
+    }
+    16% {
+        color: #dcdc00;
+    }
+    33% {
+        color: #00ff00;
+    }
+    50% {
+        color: #00ffff;
+    }
+    67% {
+        color: #0000ff;
+    }
+    83% {
+        color: #ff00ff;
+    }
+    100% {
+        color: #ff0000;
+    }
+}
+
+body {
+    background: #e70023;
+    font-family: 'comics', 'comics';
+}
+
+body.retro {
+    color: #000000;
+    background: url("xd.gif") #ffffff fixed repeat top left / 15%;
+    animation: bgscroll 10s linear infinite;
+}
+
+ h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: 'comics', 'comics';
+}
+h1{
+    font-weight: bold;
+    font-family: 'comics', 'comics';
+    font-size: 20px;
+}
+h7{
+    font-weight: normal;
+    font-family: 'Minecrafts';
+    font-size: 40px;
+}
+
+main {
+    background-color: #4c00ffee;
+}
+
+body.retro .dsx{
+    font-family:'Minecrafts';
+    font-size: 40px;
+    animation: rainbow 1s linear infinite;
+}
+body.retro .dx {
+    animation: rainbow 2s linear infinite;
+}
+
+
+
+.x {
+    color: #ec7731;
+}
+
+h3 {
+    color: #ff0000;
+}
+
+h4 {
+    color: #000000;
+}
